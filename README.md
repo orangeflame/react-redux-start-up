@@ -3,4 +3,4 @@ It is a to do list demo for react-redux implementation by using redux-action,  r
 
 #step 1
 
-you need to run npm install -g webpack first
+you need to run npm install -g webpack-dev-server first
