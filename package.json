@@ -1,0 +1,25 @@
+{
+  "name": "react-redux-start-up",
+  "version": "1.0.0",
+  "description": "It is a start-up project of react, redux stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangeflame/react-redux-start-up.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "redux-actions",
+    "reselect"
+  ],
+  "author": "Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orangeflame/react-redux-start-up/issues"
+  },
+  "homepage": "https://github.com/orangeflame/react-redux-start-up"
+}
