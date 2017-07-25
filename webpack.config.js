@@ -5,8 +5,18 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders: [
-            { test: /\.css$/, loader: "style!css" }
-        ]
+        rules: [
+        {
+            test: /\.js$/,
+            loader: 'babel-loader',
+            query: {
+                presets: [
+                  'es2015',
+                  'react'
+                ],
+                plugins: []
+            },
+            exclude: /node_modules/
+        }]
     }
 };
