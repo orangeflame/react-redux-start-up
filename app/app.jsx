@@ -5,15 +5,15 @@ import ToDoList from './ToDoList/index.jsx';
 
 const App = React.createClass({
   render() {
-    return (
-      <div>
-        <h1>App</h1>
-        <ul>
-          <li><Link to="/about">To do list</Link></li>
-        </ul>
-        {this.props.children}
-      </div>
-    )
+    return this.props.routes.length === 1 ? (
+        <div>
+            <h1>App</h1>
+            <ul>
+                <li><Link to="/about">To do list</Link></li>
+            </ul>
+
+        </div>
+    ) : (<div>{this.props.children}</div>);
   }
 })
 
