@@ -9,7 +9,7 @@ const App = React.createClass({
         <div>
             <h1>App</h1>
             <ul>
-                <li><Link to="/about">To do list</Link></li>
+                <li><Link to="/toDo">To do list</Link></li>
             </ul>
 
         </div>
@@ -21,7 +21,7 @@ const routes = {
     path: '/',
     component: App,
     childRoutes: [
-        { path: 'about', component: ToDoList },
+        { path: 'toDo', component: ToDoList },
     ],
 };
 
